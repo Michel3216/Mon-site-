@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>P-H-P - Monde Naruto</title>
+  <link rel="stylesheet" href="Naruto.css" />
+</head>
+<body class="body1">
+
+  <header class="header1">
+    <div class="divtitre">
+      <span class="logo">P-H-P</span>
+    </div>
+
+    <!-- Bouton recherche -->
+    <button class="button1" id="openSearch" aria-label="Ouvrir la recherche">🔎</button>
+
+    <!-- Menu hamburger -->
+    <div class="menu-toggle" id="menu-toggle" aria-label="Menu">&#9776;</div>
+  </header>
+
+  <!-- RECHERCHE EN PLEIN ÉCRAN -->
+  <div class="divrecherche" id="searchOverlay" role="dialog" aria-modal="true" aria-hidden="true">
+    <form>
+      <input class="recherche" type="search" placeholder="RECHERCHE" aria-label="Recherche" />
+      <span class="annuler" id="closeSearch" role="button" aria-label="Annuler recherche">❌</span>
+    </form>
+  </div>
+  <!-- ===== FOOTER AVEC PAGINATION ===== -->
+<footer class="footer-pagination">
+  <div class="pagination">
+    <span class="page-number active">1</span>
+    <span class="page-number">2</span>
+    <span class="page-number">3</span>
+    <span class="page-number">4</span>
+    <span class="page-number">5</span>
+    <span class="page-number">6</span>
+    <span class="next-page">Page suivante ➡️</span>
+  </div>
+</footer>
+
+<!-- ===== ACCORDÉON ===== -->
+<section class="accordion-container">
+  <div class="accordion-item">
+    <div class="accordion-header">📡 Réseau</div>
+    <div class="accordion-content">
+      <div class="column">WhatsApp</div>
+      <div class="column">Messenger</div>
+      <div class="column">Twitter</div>
+      <div class="column">Facebook</div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <div class="accordion-header">📞 Numéro de téléphone</div>
+    <div class="accordion-content">
+      <div class="column">+225 0160553225</div>
+      <div class="column">+225 0710544005</div>
+      <div class="column">0710739482</div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <div class="accordion-header">🙏 Remerciements</div>
+    <div class="accordion-content">
+      <div class="column">Delta Kaisuki</div>
+      <div class="column">Pain Kaisuki</div>
+      <div class="column">Zeleph Kaisuki</div>
+    </div>
+  </div>
+</section>
+
+  <script src="Naruto.js"></script>
+</body>
+</html>
