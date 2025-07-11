@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Connexion P-H-P</title>
+  <link rel="stylesheet" href="connexion.css">
+</head>
+<body class="body1">
+  <!-- Header -->
+  <header class="header1">
+    <h1 class="site-name">P-H-P</h1>
+  </header>
+
+  <!-- Formulaire de connexion -->
+  <div class="login-container">
+    <form class="login-form" onsubmit="return handleLogin(event)">
+      <h2>Connexion</h2>
+
+      <div class="input-group">
+        <input type="text" required>
+        <label>Nom d'utilisateur</label>
+      </div>
+
+      <div class="input-group">
+        <input type="password" required>
+        <label>Mot de passe</label>
+      </div>
+
+      <button type="submit" class="btn-login">Se connecter</button>
+    </form>
+  </div>
+
+  <script src="connexion.js"></script>
+</body>
+</html>
